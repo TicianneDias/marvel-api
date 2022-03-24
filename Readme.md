@@ -23,7 +23,8 @@
 <br> <br> <br>
 
 ## 💡 Sobre: <a id="sobre"></a>
-Projeto desenvolvido para se aventurar no mundo da Marvel através de sua API, utilizando Styled-Components para o CSS. 
+Projeto desenvolvido para se aventurar no mundo da Marvel através de sua API, utilizando Styled-Components para o CSS.
+<br>
 🚧 Projeto ainda em fase de construção. 🚧
 
 <br> <br> <br>

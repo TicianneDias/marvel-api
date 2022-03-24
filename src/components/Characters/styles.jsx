@@ -22,7 +22,7 @@ export const Card = styled.div`
     margin: 5px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 3px 2px 5px rgb(0, 0, 0, 0.3);
+    box-shadow: 3px 2px 5px rgb(109, 119, 115, 0.5);
 
     h2, 
     p {
@@ -52,7 +52,7 @@ export const ButtonMore = styled.div`
     height: 30px;
     color: #fff;
     cursor: pointer;
-    box-shadow: 3px 2px 5px rgb(0, 0, 0, 0.3);
+    box-shadow: 3px 2px 5px rgb(109, 119, 115, 0.5);
     margin: 20px auto;
     padding: 40px;
     border-radius: 10px;

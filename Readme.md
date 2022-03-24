@@ -12,7 +12,9 @@
 <br> <br> <br>
 
 ## 🎞 Demo: <a id="demo"></a>
-Em construção
+<div align="center">
+    <img alt="Demonstração do site Marvel API na parte dos cards de personagens" src="page.gif" style="width:600px">
+</div>
 
 <br> <br> <br>
 

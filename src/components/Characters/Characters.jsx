@@ -5,7 +5,6 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 
 const Characters = () => {
   const [characters, setCharacters] = useState([])
-  const [search, setSearch] = useState('');
   
   useEffect(() => {
     api
@@ -32,10 +31,13 @@ const Characters = () => {
       console.log(err)
     }
   },[characters])
+
+  
   return (
     <Container>
       <CardList>
         {characters.map(characters => {
+          
           return(
             <Card key={characters.id}>
               <div id="img"><img src={`${characters.thumbnail.path}.${characters.thumbnail.extension}`} alt={`Foto do ${characters.name}`} /></div>

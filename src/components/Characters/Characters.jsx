@@ -1,23 +1,8 @@
 import React, {useCallback, useEffect, useState} from 'react'
-
+import api from '../../services/Api'
 import { Container, Card ,CardList, ButtonMore } from './styles'
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import axios from 'axios'
 
-const publicKey = '1d46dfaa992a619f10e25a8caca9d40e'
-const chavemd5= 'ac899aa2766832e73682b466ec58eb8d'
-const ts = '1648140147'
-
-const hash = chavemd5
-
-const api = axios.create({
-  baseURL: 'http://gateway.marvel.com/v1/public',
-  params: {
-    "apikey": publicKey,
-    "ts": ts,
-    "hash": hash
-  }
-})
 const Characters = () => {
   const [characters, setCharacters] = useState([])
   

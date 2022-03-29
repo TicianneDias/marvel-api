@@ -7,7 +7,7 @@ export const Nav = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;

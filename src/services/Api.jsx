@@ -8,6 +8,7 @@ const hash = chavemd5
 
 const api = axios.create({
   baseURL: 'http://gateway.marvel.com/v1/public',
+  method: 'GET',
   params: {
     "apikey": publicKey,
     "ts": ts,
